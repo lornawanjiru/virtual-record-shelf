@@ -100,9 +100,18 @@ button {
 /* Checklist */
 .artist{
   display: flex;
+  width: 80px;
+}
+.artist p{
+  margin-top: 0;
+
 }
 .albumcheck{
    display: flex;
+   width: 80px;
+}
+.albumcheck p{
+  margin-top: 0;
 }
 .Check{
   display: none;
@@ -157,7 +166,12 @@ th{
   .nav{
     height: 10vh;
   }
-  
+  .Check{
+    display: flex;
+    padding-left: 3%;
+    margin-top: 7%;
+    font-size: 1.1em;
+  }
   #cover{
     width: 30%;
   }
@@ -170,5 +184,45 @@ th{
   /* Albums */
   .album-image{
     width: 30%;
+  }
+}
+@media only screen and (min-width: 740px){
+    .album-image{
+      width: 24%;
+    }
+}
+@media only screen and (min-width: 940px){
+   .album-image{
+     width: 20%;
+   }
+   .nav{
+     padding-left: 20%;
+   }
+   .addmusic{
+     margin-top: 3%;
+     width: 25%;
+   }
+   #cover{
+     margin-top: 3%;
+   }
+   .Check{
+     margin-top: 4%;
+   }
+   .container{
+    padding: 0 20% 0 20%;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .album-image{
+    width: 20%;
+  }
+  .addmusic{
+    margin-top: 1%;
+  }
+  #cover{
+    margin-top: 1%;
+  }
+  .Check{
+    margin-top: 2%;
   }
 }

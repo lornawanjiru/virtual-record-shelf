@@ -6,7 +6,7 @@ const Checklist = () => {
       <div className="Check">
         <div className="artist">
            <FontAwesomeIcon icon={faSquareCheck}/>
-           <p>Artist</p>
+           <p className='checkdetails'>Artist</p>
         </div>
         <div className="albumcheck">
            <FontAwesomeIcon icon={faSquareCheck}/>

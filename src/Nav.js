@@ -8,9 +8,9 @@ const Nav = () => {
     return (
       <div className="nav">
         <Search/>
-        <Checklist/>
         <Filter/> 
         <Add />
+        <Checklist/>
       </div>
         
     );
