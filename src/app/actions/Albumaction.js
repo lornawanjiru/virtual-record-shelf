@@ -9,7 +9,7 @@ export const setAlbum = (albums) =>{
 export const selectedAlbum = (albums) =>{
     return{
         types:ActionTypes.SELECTED_ALBUMS,
-        payload : album,
+        payload : albums,
     };
 };
 // export const setAlbum = (albums) =>{
