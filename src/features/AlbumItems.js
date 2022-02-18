@@ -1,7 +1,7 @@
 import Track from "./Tracks";
 
-
 const Album = () => {
+  
     return (
       <>
       <div className="album">

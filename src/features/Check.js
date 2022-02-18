@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareCheck } from "@fortawesome/free-solid-svg-icons";
-
+import { useSelector } from 'react-redux'
 const Checklist = () => {
     return (
       <div className="Check">
