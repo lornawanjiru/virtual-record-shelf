@@ -122,6 +122,7 @@ button {
 /* Album details */
 .album{
   display: flex;
+  padding-top:3% ;
 }
 .album-image{
   width: 40%;

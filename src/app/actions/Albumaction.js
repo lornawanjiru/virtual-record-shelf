@@ -1,25 +1,17 @@
 import { ActionTypes } from "../constance/action-types";
-import axios from "axios";
 
 
 
-export const requestAlbum = (data) => async (dispatch) => {
-    dispatch({
+
+export const requestAlbum = (albums)  => {
+    return{
       type: ActionTypes.SET_DATA,
-    });
-    try {
-      const json = await axios.get("data.json");
-      console.log(json);
-      dispatch({
+      payload: albums,
+    };
+  };
+    export const selectedAlbum = (album) =>{
+      return {
         type: ActionTypes.SELECTED_DATA,
-        usersData: json.data,
-        isError: false,
-      });
-    } catch (e) {
-      dispatch({
-        type: ActionTypes.SELECTED_DATA,
-        usersData: [],
-        isError: true,
-      });
-    }
+        payload: album,      
+    };
   };

@@ -1,39 +1,33 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from 'react-redux'
-import { requestAlbum } from "../app/actions/Albumaction";
-import data from "../app/actions/data.json"
+import React from "react";
+import { useSelector} from 'react-redux'
+import Track from "./Track";
 
-
-
+ 
+ 
 const Album = () => {
-  const {albumData, isLoading} = useSelector((state) => state);
-  const dispatch = useDispatch();
-  
-
-  useEffect(() => {
-    dispatch(requestAlbum(data));
-  }, []);
+  const albums = useSelector((state) => state.allalbums.albums);
+  const renderList = albums.map((album) =>{
+    const {name,id,artistname,image} = album; 
     return (
       <>
-      {isLoading && <div className="loading">Data loading...</div>}
-     
-      {albumData.map((album) => {
-        return(
-          <div className="album" key={album.id}>
+          <div className="album" key={id}>
             <div className="album-image">
-            {/* <img src={album.image} alt={album.name}/> */}
+            <img src={image}alt={name}/>
             </div>
             <div className="album-details">
-              <p>{album.name}</p>
-              <h1>{album.name} </h1>
-                <h3> By {album.artistname} </h3>
+              <p>{name}</p>
+              <h1>{name} </h1>
+                <h3> By {artistname} </h3>
             </div>
+           
           </div>
-        );
-      })}
+          <Track />
       </>  
     );
-  
+  })
+  return(
+     <div> {renderList } </div>
+  ); 
 
 }
 
