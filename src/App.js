@@ -1,7 +1,6 @@
 
 import "./App.css"
-
-import Album from './features/AlbumItems';
+import Albumcomponent from "./features/Albumcomponent";
 import Nav from './features/Nav';
 
 
@@ -11,7 +10,7 @@ const App = () => {
         
           <Nav />
           <div className="container">
-          <Album/>
+          <Albumcomponent/>
           </div>
       </div>
         
