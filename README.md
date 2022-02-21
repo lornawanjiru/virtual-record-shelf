@@ -1,4 +1,4 @@
-##Languages
+# Languages
 
 ---
 
@@ -10,3 +10,17 @@
 </p>
 
 ---
+
+# TASKS OVERVIEW
+
+---
+
+Hello, I was given a certain medium level question for an interview and I worked on it for 5 days but i wasnt able to solve it on time, though that wasnt the end of the task but i took it upon myselfto use that as a learning curve for  # [react-redux](https://redux-toolkit.js.org/).
+
+
+ ---
+
+# TASK IMAGE
+
+---
+
