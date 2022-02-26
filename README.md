@@ -21,23 +21,21 @@ Hello, I was given a certain medium level question for an interview and I worked
  *  [react-redux](https://redux-toolkit.js.org/).
 
 
-
-# TASK IMAGE
-
-
-
-
-
 # TO DO LIST
 ## PROPOSED WORKFLOW
 - [x] React-redux toolkit installation 
 - [ ] Frontend overview
 - [ ] Connecting React to redux
 - [ ] Fetching data from an API
-## tESTING ENVIRONMENT
+## TESTING ENVIRONMENT
 - [ ] Installing a testing framework 
 
-## Getting started with specifics 
+## GETTING STARTED WITH SPECIFICS
 - [ ] set up Mobile view design
 - [ ] set up Desktop view  
 
+#### OUTPUT 
+
+Check the link below for a live demo: 
+
+Status [x] Incompleted [ ] Completed
