@@ -29,4 +29,15 @@ Hello, I was given a certain medium level question for an interview and I worked
 
 
 # TO DO LIST
+## PROPOSED WORKFLOW
+- [x] React-redux toolkit installation 
+- [ ] Frontend overview
+- [ ] Connecting React to redux
+- [ ] Fetching data from an API
+## tESTING ENVIRONMENT
+- [ ] Installing a testing framework 
+
+## Getting started with specifics 
+- [ ] set up Mobile view design
+- [ ] set up Desktop view  
 
