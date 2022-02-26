@@ -38,4 +38,8 @@ Hello, I was given a certain medium level question for an interview and I worked
 
 Check the link below for a live demo: 
 
-Status [x] Incompleted [ ] Completed
+  *  [Live Demo](http://virtual-record-shelf.vercel.app/).
+
+Status 
+ - [x] Incompleted 
+ - [ ] Completed
